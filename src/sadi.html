@@ -92,6 +92,8 @@
           </div>
         </div>
       </nav>
+    </header>
+    <main>
       <section class="w-full bg-[#0098BF]">
         <div
           class="max-w-[1200px] mx-auto flex flex-col lg:flex-row items-center justify-between px-4 py-10 gap-8"
@@ -126,5 +128,99 @@
         </div>
       </section>
     </header>
+    <main>
+        <section class=" max-w-[1200px] m-auto bg-white rounded-lg  ">
+  <article class="p-6 max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 m-auto -mt-[50px] relative z-10">
+    <div class="bg-blue-50 rounded-lg shadow p-6 w-[300px]">
+      <h3 class="text-xl font-semibold mb-4">Направления</h3>
+      <hr>
+      <ul class="space-y-2 text-gray-700">
+        <li>Акушерство</li>
+        <li>Косметология</li>
+        <li>Хирургия</li>
+        <li>Мануальная терапия</li>
+        <li>Психотерапия</li>
+      </ul>
+      <button class="mt-4 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800">Все услуги</button>
+    </div>
+    <div class="bg-blue-50 rounded-lg shadow p-6 w-[300px]">
+      <h3 class="text-xl font-semibold mb-4">Диагностика</h3>
+      <hr>
+      <ul class="space-y-2 text-gray-700">
+        <li>МРТ</li>
+        <li>КТ</li>
+        <li>УЗИ</li>
+        <li>Рентген</li>
+        <li>Гастроскопия</li>
+      </ul>
+      <button class="mt-4 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800">Вся диагностика</button>
+    </div>
+       <div class="bg-blue-50 rounded-lg shadow p-6 w-[300px]">
+      <h3 class="text-xl font-semibold mb-4">Врачи</h3>
+      <hr>
+      <ul class="space-y-2 text-gray-700">
+        <li>Стоматолог</li>
+        <li>Эндокринолог</li>
+        <li>Хирург</li>
+        <li>Терапевт</li>
+        <li>Невролог    </li>
+      </ul>
+      <button class="mt-4 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800">Все врачи</button>
+    </div>
+    <div class="bg-blue-50 rounded-lg shadow p-6 w-[300px]">
+      <h3 class="text-xl font-semibold mb-4">Детство</h3>
+      <hr>
+      <ul class="space-y-2 text-gray-700">
+        <li>Педиатр</li>
+        <li>Стоматолог</li>
+        <li>Дерматолог</li>
+        <li>Офтальмолог</li>
+        <li>Логопед</li>
+      </ul>
+      <button class="mt-4 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800">Все врачи</button>
+    </div>
+  </article>
+</section>
+
+<section class="max-w-[1200px] m-auto rounded-lg bg-[#0192BE] flex items-start text-white px-4 py-14 mt-10">
+  <div class="max-w-7xl mx-auto grid sm:grid-cols-2 gap-8 ">
+    <div>
+      <h2 class="text-2xl sm:text-3xl font-bold mb-6">Записаться на приём</h2>
+      <p class="text-sm mb-4 hidden sm:block">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+
+      <form class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <select class="w-full p-3 rounded text-black focus:outline-none focus:ring" required>
+          <option disabled selected>Выберите направление</option>
+          <option>Педиатрия</option>
+          <option>Терапия</option>
+        </select>
+        <input type="text" placeholder="Ваше имя" class="p-3 rounded text-black focus:outline-none focus:ring" required>
+
+        <select class="w-full p-3 rounded text-black focus:outline-none focus:ring" required>
+          <option disabled selected>Выберите врача</option>
+          <option>Иванов И.И.</option>
+          <option>Петрова А.А.</option>
+        </select>
+        <input type="tel" placeholder="Ваш телефон" class="p-3 rounded text-black focus:outline-none focus:ring" required>
+      </form>
+    </div>
+    <div class="lg:flex flex-col   items-start  ">
+      <p class="text-sm">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+
+      <div class="mt-[79px]">
+        <button type="submit" class="bg-[#00C6BF] text-white font-semibold px-6 py-3 rounded hover:bg-gray-100 w-full sm:w-auto mb-4 transition">
+          Оставить заявку
+        </button>
+
+        <p class="flex items-start text-xs ">
+          <input type="checkbox" class=" mt-[2px]" >
+          Отправляя заявку, вы соглашаетесь на нашу  <p  class="underline ml-1 text-xs ">политику конфиденциальности</p>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
   </body>
 </html>
